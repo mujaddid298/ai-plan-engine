@@ -1,0 +1,57 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/blueprint
+
+# testing
+/coverage
+
+# next.js build outputs
+/.next/
+/out/
+/build
+
+# misc & OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local environment & secrets
+.env
+.env*.local
+.env.production
+.env.development
+
+# SQLite & LibSQL database files (Strictly ignored)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+local.db
+local.db*
+*.dump
+!drizzle/**/*.sql
+
+# local keystore & data directory
+.data/
+data/
+
+# vercel
+.vercel
+
+# typescript & IDE
+*.tsbuildinfo
+next-env.d.ts
+.idea/
+.vscode/
